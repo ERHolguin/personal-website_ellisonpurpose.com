@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-@import url('https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css')
 
 * {
     margin: 0;
@@ -13,7 +12,7 @@ html {
 }
 
 body {
-   /* background-color: rgb(33, 37, 41);*/
+   background-color: rgb(33, 37, 41);
     margin: 50px;
 }
 
@@ -79,3 +78,14 @@ a {
     opacity: 0;
 }
 
+/*.home-page-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}*/
+
+.socials {
+    display: grid;
+    font-size: 25px;
+    color: rgb(220, 220, 221);
+}
