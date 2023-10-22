@@ -13,7 +13,13 @@ html {
 
 body {
    background-color: rgb(33, 37, 41);
-    margin: 100px;
+}
+
+.content {
+    max-width: 960px;
+    margin: auto;
+    background-color: rgb(33, 37, 41);
+    padding: 10px;
 }
 
 li {
@@ -38,15 +44,16 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    color: rgb(220, 220, 221);
 }
 
-/*#logo {
+.logo {
     box-sizing: border-box;
     color: rgb(220, 220, 221);
     border: 2px solid rgb(220, 220, 221);
     padding: 10px;
     cursor: pointer;
-}*/
+}
 
 #menu li {
     margin: 0 10px;
