@@ -78,10 +78,21 @@ a {
     opacity: 0;
 }
 
-/*.home-page-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.section-container {
+    width: 100px;
+    height: 100px;
+    
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+}
+
+/*.section-para {
+    margin: 0;
 }*/
 
 .socials {
