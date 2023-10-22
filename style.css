@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(33, 37, 41);
+    margin: 50px;
+}
+
+#header-buttons {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#logo {
+    box-sizing: border-box;
+    color: rgb(220, 220, 221);
+    border: 2px solid rgb(220, 220, 221);
+    padding: 10px;
+}
+
