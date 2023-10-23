@@ -12,7 +12,7 @@ html {
 }
 
 body {
-   /*background-color: #171717;*/
+   background-color: #171717;
    margin-left: 50px;
    margin-right: 50px;
 }
@@ -55,13 +55,6 @@ a {
     align-items: center;
 }
 
-#menu {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    color: rgb(220, 220, 221);
-}
-
 .logo {
     box-sizing: border-box;
     font-size: 25px;
@@ -71,11 +64,22 @@ a {
     cursor: pointer;
 }
 
+#menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(220, 220, 221);
+}
+
 #menu li {
     font-size: 20px;
     margin: 0 10px;
     padding: 15px;
     cursor: pointer;
+}
+
+#menu li a {
+    color: rgb(220, 220, 221);
 }
 
 .section-container {
