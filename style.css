@@ -1,4 +1,4 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,800;1,300;1,400;1,500;1,800&display=swap');
 
 * {
     margin: 0;
@@ -8,14 +8,25 @@
 
 html {
     font-size: 100%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 body {
-   background-color: #171717;
+   /*background-color: #171717;*/
    margin-left: 50px;
    margin-right: 50px;
 }
+
+/*#particles-js {
+    position: absolute;
+    max-width: 100%;
+    max-height:100%;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    z-index: 0;
+    }*/
 
 .content {
     max-width: 960px;
@@ -68,7 +79,7 @@ a {
 }
 
 .section-container {
-    width: 100px;
+    width: 300px;
     height: 100px;
     
     position: absolute;
@@ -104,6 +115,13 @@ a {
 
 .last-name {
     color:  rgb(220, 220, 221);
+}
+
+.subjects-content-one {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 100;
+    color: rgb(220, 220, 221);
 }
     
 
