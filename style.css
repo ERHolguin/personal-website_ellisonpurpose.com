@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,800;1,300;1,400;1,500;1,800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@500,300;&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@500,300;&display=swap');*/
 
 * {
     margin: 0;
@@ -85,7 +85,7 @@ a {
 }
 
 .section-container {
-    width: 300px;
+    width: 600px;
     height: 100px;
     
     position: absolute;
@@ -123,14 +123,41 @@ a {
     color:  rgb(220, 220, 221);
 }
 
-.subjects-container {
+.typing-container {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
     font-size: 50px;
     font-weight: 300;
     color: rgb(220, 220, 221);
-}    
+}
+
+#subjects {
+    display: flex;
+    font-size: 50px;
+    font-weight: 300;
+    color: rgb(220, 220, 221);
+}
+
+#word {
+    margin-left: 8px
+}
+
+#vertical-bar {
+    display: inline-block;
+    width: 1px;
+    margin-left: 8px;
+
+    animation: blink .6s linear infinite alternate;
+}
+
+@keyframes blink {
+    0% {opacity: 1;}
+    40% {opacity: 1;}
+    60% {opacity: 0;}
+    100% {opacity: 0;}
+}
 
 .footer-content {
     display: flex;
