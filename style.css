@@ -85,7 +85,6 @@ a {
 }
 
 .section-container {
-    width: 600px;
     height: 100px;
     
     position: absolute;
@@ -141,6 +140,7 @@ a {
 }
 
 #word {
+    color: rgb(0, 144, 158);
     margin-left: 8px
 }
 
