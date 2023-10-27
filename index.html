@@ -4,44 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Website/Portfolio</title>
-    <script
-  src="https://code.jquery.com/jquery-3.7.1.min.js"
-  integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
-  crossorigin="anonymous"
-  ></script>
-  <script> 
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" 
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" 
+    crossorigin="anonymous"></script>
+
+  <script>
     $(function(){
-      $("#header").load("header.html"); 
-      $("#footer").load("footer.html"); 
-    });
-    </script> 
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css'>
+    $("#header").load("header.html");
+    $("#footer").load("footer.html");
+});
+</script> 
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href='https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css'>
+   
 </head>
 <body>
+<div id="header"></div> 
+
 <script src="index.js" defer></script>
 <script src="particles.js" defer></script>
 <script src="particles.min.js" defer></script>
 
 <div id="particles-js"></div>
-
-
-    <header class="header">
-        <nav class="navbar">
-            <a href="index.html">
-            <div class="logo">
-                Ellis on Purpose
-            </div>
-            </a>
-            <ul id="menu">
-                <li><a href="./about.html">About</a></li>
-                <li><a href="./portfolio.html">Portfolio</a></li>
-                <li><a href="./resources.html">Resources</a></li>
-                <li><a href="./contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
     <div class="content">
     <section class="section-container">
         <p class="section-para">
@@ -56,14 +41,7 @@
             </div>
         </p>      
     </section>
-</div>   
-
-<footer class="footer-content">
-        <div class="socials">
-            <i class="fi fi-brands-linkedin"></i>
-            <i class="fi fi-brands-youtube"></i>
-            <i class="fi fi-brands-discord"></i>
-        </div>
-</footer>
+</div>
+<div id="footer"></div> 
 </body>
 </html>
