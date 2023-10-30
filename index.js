@@ -1,4 +1,4 @@
-let subjectSelection = ['Developer.', 'Creator.', 'Polyglot.'];
+let subjectSelection = ['Creator.', 'Developer.', 'Polyglot.'];
 let i = 0;
 let timer;
 
