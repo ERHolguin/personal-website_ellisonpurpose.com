@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,800;1,300;1,400;1,500;1,800&display=swap');
-/*@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@500,300;&display=swap');*/
 
 * {
     margin: 0;
@@ -65,7 +64,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: rgb(220, 220, 221);
+    color: whitesmoke;
 }
 
 #menu li {
@@ -76,12 +75,11 @@ a {
 }
 
 #menu li a {
-    color: rgb(220, 220, 221);
+    color: whitesmoke;
 }
 
 .section-container {
     height: 100px;
-    
     position: absolute;
     top: 0;
     bottom: 0;
@@ -114,7 +112,7 @@ a {
 }
 
 .last-name {
-    color:  rgb(220, 220, 221);
+    color:  whitesmoke;
 }
 
 .typing-container {
@@ -124,14 +122,14 @@ a {
     width: 100%;
     font-size: 50px;
     font-weight: 300;
-    color: rgb(220, 220, 221);
+    color:whitesmoke;
 }
 
 #subjects {
     display: flex;
     font-size: 50px;
     font-weight: 300;
-    color: rgb(220, 220, 221);
+    color:whitesmoke;
 }
 
 #word {
@@ -162,7 +160,7 @@ a {
 
 .socials {
     font-size: 25px;
-    color: rgb(220, 220, 221);
+    color: whitesmoke;
 
     position: absolute;
     bottom: 0px;
