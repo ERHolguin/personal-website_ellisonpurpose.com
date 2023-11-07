@@ -164,13 +164,15 @@ a {
 }
 
 .socials {
-    font-size: 25px;
-    color: whitesmoke;
-
     position: absolute;
     bottom: 0px;
     margin-bottom: 25px;
+}
 
+/*link tags are styled here - styling was removed from .socials after adding links*/
+.socials a {
+    font-size: 25px;
+    color: whitesmoke;
 }
 
 i {
