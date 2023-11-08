@@ -2,7 +2,7 @@ let subjectSelection = ['Creator.', 'Developer.', 'Polyglot.'];
 let i = 0;
 let timer;
 
-function typingEffect () {
+function typingEffect() {
     let word = subjectSelection[i].split('');
     var loopTyping = function() {
         if(word.length > 0) {
@@ -21,7 +21,7 @@ function deletingEffect() {
     var loopDeleting = function() {
         if(word.length > 0) {
             word.pop();
-            document.getElementById('word').innerText = word.join('');
+            document.getElementById('word').innerText = word.join(' ');
         } else {
             if(subjectSelection.length > (i +1)) {
                 i++;
@@ -38,5 +38,11 @@ function deletingEffect() {
 
 typingEffect();
 
+function emphasisColor(text) {
+    let emphasisBlue = text.fontcolor('red')
+}
 
 
+/*----------------------------About ME------------------------------------------*/ 
+
+let emphasisTexts = document.getElementById('emphasisColoredText').fontcolor('red');

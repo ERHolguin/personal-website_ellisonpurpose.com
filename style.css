@@ -179,3 +179,25 @@ i {
     padding: 5px;
     cursor: pointer;
 }
+
+/*----------------------------About ME------------------------------------------*/ 
+
+.about-me {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: whitesmoke;
+}
+
+.about-me-text-one {
+    font-size: 40px;
+}
+
+.about-me-text-two {
+    margin-left: 8px;
+    color: rgb(0, 144, 158);
+    font-size: 40px;
+
+}
