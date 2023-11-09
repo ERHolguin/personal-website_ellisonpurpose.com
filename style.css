@@ -308,7 +308,7 @@ a {
 }
 
 .socials {
-    position: fixed;
+    position: relative;
     bottom: 0px;
     margin-bottom: 25px;
 }
