@@ -49,6 +49,7 @@ a {
 }
 
 .header {
+    box-sizing: border-box;
     margin-left: 300px;
     margin-right: 300px;
 }
@@ -157,29 +158,6 @@ a {
     100% {opacity: 0;}
 }
 
-.footer-content {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
-
-.socials {
-    position: absolute;
-    bottom: 0px;
-    margin-bottom: 25px;
-}
-
-/*link tags are styled here - styling was removed from .socials after adding links*/
-.socials a {
-    font-size: 25px;
-    color: whitesmoke;
-}
-
-i {
-    padding: 5px;
-    cursor: pointer;
-}
-
 /*----------------------------About ME------------------------------------------*/ 
 
 .about-me {
@@ -222,12 +200,48 @@ i {
     margin-top: 25px;
 }
 
-.about-text {
+.about-text-one,
+.about-text-two {
     font-size: 30px;
     color: whitesmoke;
     opacity: 75%;
 }
 
+.about-text-two {
+    margin-top: 25px;
+}
+
+.profile-photo-containe {
+    width: 100%;
+}
+
 .profile-photo {
-    width: 600px;
+    width: 50%;
+}
+
+
+/*----------------------------Footer------------------------------------------*/ 
+
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.socials {
+    position: fixed;
+    bottom: 0px;
+    margin-bottom: 25px;
+}
+
+/*link tags are styled here - styling was removed from .socials after adding links*/
+.socials a {
+    font-size: 25px;
+    color: whitesmoke;
+}
+
+i {
+    padding: 5px;
+    cursor: pointer;
 }
