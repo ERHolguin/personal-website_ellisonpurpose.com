@@ -211,12 +211,13 @@ a {
     margin-top: 25px;
 }
 
-.profile-photo-containe {
+.profile-photo-container {
+    margin-left: 50px;
     width: 100%;
 }
 
 .profile-photo {
-    width: 50%;
+    width: 400px;
 }
 
 
