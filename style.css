@@ -201,6 +201,7 @@ i {
 }
 
 .about-title {
+    margin-top: 50px;
     font-size: 40px;
     font-weight: 500;
     color: whitesmoke;
@@ -215,8 +216,13 @@ i {
     align-items: center;
 }
 
+.about-body-container {
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 25px;
+}
+
 .about-text {
-    margin-top: 50px;
     font-size: 30px;
     color: whitesmoke;
     opacity: 75%;
