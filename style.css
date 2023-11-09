@@ -198,6 +198,7 @@ a {
     box-sizing: border-box;
     width: 100%;
     margin-top: 25px;
+    align-items: center;
 }
 
 .about-text-one,
@@ -211,6 +212,17 @@ a {
     margin-top: 25px;
 }
 
+.resume-download-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resume-download-button {
+    margin-top: 25px;
+    padding: 15px;
+}
+
 .profile-photo-container {
     margin-left: 50px;
     width: 100%;
@@ -218,6 +230,7 @@ a {
 
 .profile-photo {
     width: 400px;
+    filter: drop-shadow(20px #101010);
 }
 
 
