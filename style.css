@@ -327,14 +327,22 @@ a {
 
 .project-cards-container  {
     box-sizing: border-box;
-    margin-top: 50px;
+    max-width: 960px; /*Same as content container to keep items stretched to the same max width*/
+    padding: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: space-evenly;
     flex-wrap: wrap;
-    width: auto;
     gap: 25px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
 }
 
 .project-cards-container li {
@@ -349,6 +357,7 @@ a {
     border-radius: 15px;
     flex: 1;
     padding-top: 25px;
+    width: auto;
     
 
     /*Keeps cards square shaped*/
