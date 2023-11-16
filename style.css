@@ -328,13 +328,13 @@ a {
 .project-cards-container  {
     box-sizing: border-box;
     max-width: 960px; /*Same as content container to keep items stretched to the same max width*/
-    padding: 25px;
+    padding: 25px; /*Do not remove! This keeps the cards from touching tho borders of the page when the screenm size changes*/
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: space-evenly;
     flex-wrap: wrap;
-    gap: 25px;
+    gap: 50px;
     height: 100px;
     position: absolute;
     top: 0;
@@ -351,19 +351,21 @@ a {
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
+    font-size: 20px;
+    text-wrap: wrap;
     color: whitesmoke;
     background-color: #171717;
     border: 1px  #171717;
     border-radius: 15px;
     flex: 1;
     padding-top: 25px;
-    width: auto;
     
 
     /*Keeps cards square shaped*/
-    padding-bottom: 200px;
+    padding-bottom: 400px;
     height: 0;
 }
+
 
 
 
