@@ -37,8 +37,10 @@ body {
 
 .content {
     max-width: 960px;
-    height: auto;
     margin: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 li {
@@ -275,6 +277,7 @@ a {
     border: 1px  #171717;
     border-radius: 15px;
     padding: 50px;
+    margin-bottom: 300px;
 }
 
 .skill-button {
@@ -307,9 +310,11 @@ a {
 
 /*----------------------------Footer------------------------------------------*/ 
 
+footer {
+    margin-top: auto;
+}
 
 .footer-content {
-    margin-top: 300px;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -317,7 +322,6 @@ a {
 
 .socials {
     bottom: 0px;
-    margin-top: auto;
     margin-bottom: 25px;
 }
 
