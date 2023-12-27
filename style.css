@@ -343,7 +343,6 @@ a {
     align-content: space-evenly;
     flex-wrap: wrap;
     gap: 50px;
-    height: 100px;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -355,32 +354,70 @@ a {
 
 .project-cards-container li {
     box-sizing: border-box;
-    width: 300px;
+    width: 600px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     font-size: 20px;
     text-wrap: wrap;
     color: whitesmoke;
-    background-color: black;
+    background-color: whitesmoke;
     border: 1px  #171717;
-    border-radius: 15px;
+    border-radius: 20px;
     flex: 1;
     
 
     /*Keeps cards square shaped*/
     padding-bottom: 400px;
     height: 0;
+
+    transition: 0.3s; /*smooth dropshadow effect*/
 }
 
-.card-one-img {
-    margin-top: 0;
-    width: 100%;
-    border-radius: 15px;
+.project-card:hover {
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
+.card-image {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.card-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px 20px 0 0;
+}
+
+.card-content {
+    padding: 2rem;
 
 }
 
+.card-content .project-type {
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 600;
+    color: #46494C;
+    display: block;
+    text-decoration: none;
+}
+
+.card-content .card-title {
+    margin: 3rem 0;
+    color: rgb(0, 144, 158);  
+}
+
+.card-content .card-description {
+    font-size: 15px;
+    line-height: 1.5rem;
+    color: rgb(0, 144, 158);
+    margin: 0;
+}
 
 
 /*----------------------------Resources------------------------------------------*/ 
