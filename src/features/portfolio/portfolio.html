@@ -11,7 +11,7 @@
 
     <script>
       $(function(){
-      $("#header").load("/src/features/header/header.html");
+      /*$("#header").load("/src/features/header/header.html");*/
       $("#footer").load("/src/features/footer/footer.html");
   });
 </script>  
@@ -23,8 +23,19 @@
    
 </head>
 <body id="portfolioBodyStyle">
-<div id="header"></div> 
-
+<!--<div id="header"></div>-->
+<header class="header">
+  <nav class="navbar">
+      <a href="/src/index.html">
+      <img class="logo" src="/src/assets/images/Logo with Transparent Background.png">
+      </a>
+      <ul id="menu">
+          <li><a href="/src/features/about/about.html">About</a></li>
+          <li><a href="/src/features/portfolio/portfolio.html">Portfolio</a></li>
+          <li><a href="/src/features/contact/contact.html">Contact</a></li>
+      </ul>
+  </nav>
+</header>
   <div class="content">
 
     <div class="my-projects">

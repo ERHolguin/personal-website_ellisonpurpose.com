@@ -1,4 +1,4 @@
-<!--<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -10,7 +10,6 @@
 
     <script>
       $(function(){
-      $("#header").load("/src/features/header/header.html");
       $("#footer").load("/src/features/footer/footer.html");
   });
   </script>  
@@ -20,37 +19,46 @@
    
 </head>
 <body id="contactBodyStyle">
-<div id="header"></div> 
-
+  <header class="header">
+    <nav class="navbar">
+        <a href="/src/index.html">
+        <img class="logo" src="/src/assets/images/Logo with Transparent Background.png">
+        </a>
+        <ul id="menu">
+            <li><a href="/src/features/about/about.html">About</a></li>
+            <li><a href="/src/features/portfolio/portfolio.html">Portfolio</a></li>
+            <li><a href="/src/features/contact/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
   <div class="content">
 
     <div class="contact-title-container">
       <h3 class="contact-title">Leave your Feedback and Comments <span class="emphasis-color">here </span></h3> 
     </div>
+
+    <form action="/contact-form" method="post">
+      <ul>
+        <li>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="user_name"/>
+        </li>
+        <li>
+          <label for="mail">Email:</label>
+          <input type="email" id="mail" name="user_email"/>
+        </li>
+        <li>
+          <label for="msg">Message:</label>
+          <textarea id="msg" name="user_message"></textarea>
+        </li>
+        <li class="submit-msg-button">
+          <button type="submit">Send</button>
+        </li>
+      </ul>
+    </form>
     
-    <ul class="contact-container">
-      <li class="contact-field">
-        <p class="contact-field-title">
-          Name
-        </p>
-      </li>
-      <li class="contact-field">
-        <p class="contact-field-title">
-          Email
-        </p>
-      </li>
-      <li class="contact-field">
-        <p class="contact-field-title">
-          Subject
-        </p>
-      </li>
-      <li class="contact-field">
-        <p class="contact-field-title contact-field-msg">
-          message
-        </p>
-      </li>
-    </ul>
-  -->
+   
+  
   </div>
 
 <div id="footer"></div> 
