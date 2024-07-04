@@ -317,9 +317,79 @@ a {
 .project-cards-container .project-card {
     box-sizing: border-box;
 
-    background-color: #171717;
-    height: 250px;
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+
     border-radius: 10px;
+    background-color: #171717;
+}
+
+.project-screenshot-container {
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    border-bottom: 0.2px solid grey;
+}
+
+.project-screenshot {
+    width: 100%;
+    height: auto;
+
+}
+
+.project-description {
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+
+}
+
+.project-name {
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    color: rgb(0, 144, 158);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.project-name::after {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+    content: "";
+    width: 15px;
+    height: 15px;
+    display: grid;
+}
+
+/*define alignment of the element that comes after .project-name*/
+.project-name::after {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+    background-image: url();
+}
+
+.project-details {
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+    color: whitesmoke;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    margin-left: 10px;
 }
 
 
