@@ -289,9 +289,8 @@ a {
 
 /*----------------------------Portfolio------------------------------------------*/ 
 
-
-.my-projects {
-    margin-top: 25px;
+.portfolio-title-container {
+    margin-top: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -299,101 +298,12 @@ a {
     color: whitesmoke;
 }
 
-.my-projects-text-one {
+.portfolio-title {
     font-size: 40px;
     font-weight: 500;
-}
-
-.project-cards-container  {
-    box-sizing: border-box;
-    max-width: 960px; /*Same as content container to keep items stretched to the same max width*/
-    padding: 25px; /*Do not remove! This keeps the cards from touching tho borders of the page when the screenm size changes*/
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: space-evenly;
-    flex-wrap: wrap;
-    gap: 50px;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-
-    margin: auto;
-}
-
-.project-cards-container li {
-    box-sizing: border-box;
-    width: 600px;
-    height: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    font-size: 20px;
     text-wrap: wrap;
-    color: whitesmoke;
-    background-color: black;
-    border: 1px  #171717;
-    border-radius: 20px;
-    flex: 1;
-    
-
-    /*Keeps cards square shaped*/
-    padding-bottom: 400px;
-    height: 0;
-
-    transition: 0.3s; /*smooth dropshadow effect*/
 }
 
-.project-card:hover {
-    box-shadow: 0 4px 20px 0 rgba(0,0,0,0.2);
-    cursor: pointer;
-}
-
-.card-image {
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-.card-image img {
-    width: 100%;
-    height: auto;
-    border-radius: 20px 20px 0 0;
-}
-
-.card-content {
-    box-sizing: border-box;
-    padding: 25px
-}
-
-.card-content .project-type {
-    font-size: 0.875rem;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    font-weight: 400;
-    color: #46494C;
-    display: block;
-    text-decoration: none;
-}
-
-.card-content .card-title {
-    color: rgb(0, 144, 158);  
-    font-weight: 600;
-}
-
-.card-content .card-description {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10px;
-    /*padding: 10px;*/
-    font-size: 15px;
-    color: whitesmoke;
-}
 
 
 /*----------------------------Resources------------------------------------------*/ 
