@@ -337,8 +337,8 @@ a {
 
 }
 
-.project-description-one,
-.project-description-two {
+.website-project-description,
+.kob-project-description {
     grid-row-start: 2;
     grid-row-end: 3;
 
@@ -347,7 +347,8 @@ a {
 
 }
 
-.project-name {
+.website-project-name,
+.kob-project-name {
     grid-row-start: 1;
     grid-row-end: 2;
 
@@ -361,7 +362,8 @@ a {
     grid-template-columns: 2fr 1fr;
 }
 
-.project-name::after {
+.website-project-name::after,
+.kob-project-name::after {
     grid-row-start: 1;
     grid-row-end: 2;
     grid-column-start: 2;
@@ -376,7 +378,8 @@ a {
 }
 
 /*define alignment of the element that comes after .project-name*/
-.project-name::after {
+.website-project-name::after,
+.kob-project-name::after {
     grid-row-start: 1;
     grid-row-end: 2;
     grid-column-start: 2;
@@ -388,7 +391,8 @@ a {
     border-radius: 100%;
 }
 
-.project-details {
+.website-project-details,
+.kob-project-details {
     grid-row-start: 2;
     grid-row-end: 3;
 
