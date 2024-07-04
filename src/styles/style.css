@@ -328,6 +328,9 @@ a {
     grid-row-start: 1;
     grid-row-end: 2;
 
+    display: grid;
+    place-items: stretch;
+
     border-bottom: 0.2px solid grey;
 }
 
