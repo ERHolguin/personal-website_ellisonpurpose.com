@@ -1,42 +1,56 @@
 <!DOCTYPE html>
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Website/Portfolio</title>
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js" 
-    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" 
-    crossorigin="anonymous"></script>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Website Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="/src/styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
     <script>
-      $(function(){
-      /*$("#header").load("/src/features/header/header.html");*/
-      $("#footer").load("/src/features/footer/footer.html");
-  });
-</script>  
-  
-<script src="https://kit.fontawesome.com/ecd1bf1f7b.js" crossorigin="anonymous"></script>
+      $(function () {
+        /*$("#header").load("/src/features/header/header.html");*/
+        $("#footer").load("/src/features/footer/footer.html");
+      });
+    </script>
 
-<link rel="stylesheet" type="text/css" href="/src/styles/style.css">
-<link rel="stylesheet" href='https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css'>
-   
-</head>
-<body id="portfolioBodyStyle">
-<!--<div id="header"></div>-->
-<header class="header">
-  <nav class="navbar">
-      <a href="/src/index.html">
-      <img class="logo" src="/src/assets/images/Logo with Transparent Background.png">
-      </a>
-      <ul id="menu">
-          <li><a href="/src/features/about/about.html">About</a></li>
-          <li><a href="/src/features/portfolio/portfolio.html">Portfolio</a></li>
-          <li><a href="/src/features/contact/contact.html">Contact</a></li>
-      </ul>
-  </nav>
-</header>
-  <div class="content">
+    <script
+      src="https://kit.fontawesome.com/ecd1bf1f7b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body id="portfolioBodyStyle">
+    <!--<div id="header"></div>-->
+    <header class="header">
+      <nav class="navbar">
+        <a href="/index.html">
+          <img
+            class="logo"
+            src="/src/assets/images/Logo with Transparent Background.png"
+          />
+        </a>
+        <ul id="menu">
+          <li class="header-links">
+            <a href="/src/features/about/about.html">About</a>
+          </li>
+          <li class="header-links">
+            <a href="/src/features/portfolio/portfolio.html">Portfolio</a>
+          </li>
+          <li class="header-links">
+            <a href="/src/features/contact/contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!--                      <div class="content">
 
     <div class="my-projects">
       <h3 class="my-projects-text-one">My <span class="emphasis-color">Projects</span></h3> 
@@ -81,8 +95,8 @@
   </li>
     </ul>
 
-  </div>
+  </div> -->
 
-<div id="footer"></div> 
-</body>
+    <div id="footer"></div>
+  </body>
 </html>
