@@ -21,13 +21,13 @@
 <body id="contactBodyStyle">
   <header class="header">
     <nav class="navbar">
-        <a href="/src/index.html">
+        <a href="/index.html">
         <img class="logo" src="/src/assets/images/Logo with Transparent Background.png">
         </a>
         <ul id="menu">
-            <li><a href="/src/features/about/about.html">About</a></li>
-            <li><a href="/src/features/portfolio/portfolio.html">Portfolio</a></li>
-            <li><a href="/src/features/contact/contact.html">Contact</a></li>
+            <li class="header-links"><a href="/src/features/about/about.html">About</a></li>
+            <li class="header-links"><a href="/src/features/portfolio/portfolio.html">Portfolio</a></li>
+            <li class="header-links"><a href="/src/features/contact/contact.html">Contact</a></li>
         </ul>
     </nav>
 </header>
@@ -37,24 +37,32 @@
       <h3 class="contact-title">Leave your Feedback and Comments <span class="emphasis-color">here </span></h3> 
     </div>
 
-    <form action="/contact-form" method="post">
-      <ul>
-        <li>
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="user_name"/>
-        </li>
-        <li>
-          <label for="mail">Email:</label>
-          <input type="email" id="mail" name="user_email"/>
-        </li>
-        <li>
-          <label for="msg">Message:</label>
-          <textarea id="msg" name="user_message"></textarea>
-        </li>
-        <li class="submit-msg-button">
-          <button type="submit">Send</button>
-        </li>
-      </ul>
+    <form action="" method="get">
+      <div class="form-row">
+        <label for="name">Name:</label>
+        <input 
+        id="name" 
+        name="user_name" 
+        type="text" 
+        placeholder="First & Last Name"/>
+      </div>
+      <div class="form-row">
+        <label for="email">Email:</label>
+        <input 
+        id="email" 
+        name="user_email" 
+        type="email" 
+        placeholder="you@example.com"/>
+      </div>
+      <div class='form-row'>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message"></textarea>
+        <div class="instructions">Write your message in 300 words or less</div>
+      </div>
+      <div class='form-row'>
+        <button>Submit</button>
+      </div>
+  
     </form>
     
    
