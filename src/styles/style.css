@@ -369,6 +369,7 @@ a {
     content: "";
     width: 15px;
     height: 15px;
+
     display: grid;
 }
 
@@ -379,7 +380,10 @@ a {
     grid-column-start: 2;
     grid-column-end: 3;
 
-    background-image: url();
+    background-image: url(/src/assets/icons/github-icon.svg);
+    background-color: whitesmoke;
+    border: 5px solid whitesmoke;
+    border-radius: 100%;
 }
 
 .project-details {
