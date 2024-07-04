@@ -344,6 +344,7 @@ a {
 
     display: grid;
     grid-template-rows: 1fr 2fr;
+    grid-template-columns: 3fr 1fr;
 
 }
 
@@ -351,50 +352,42 @@ a {
 .kob-project-name {
     grid-row-start: 1;
     grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    align-self: center;
 
     color: rgb(0, 144, 158);
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     margin-left: 10px;
     margin-top: 10px;
-
-    display: grid;
-    grid-template-columns: 2fr 1fr;
 }
 
-.website-project-name::after,
-.kob-project-name::after {
+.github-link {
     grid-row-start: 1;
     grid-row-end: 2;
     grid-column-start: 2;
     grid-column-end: 3;
+    align-self: center;
 
     content: "";
-    width: 15px;
-    height: 15px;
+    width: 25px;
+    height: 25px;
     margin-left: 10px;
-
-    display: grid;
-}
-
-/*define alignment of the element that comes after .project-name*/
-.website-project-name::after,
-.kob-project-name::after {
-    grid-row-start: 1;
-    grid-row-end: 2;
-    grid-column-start: 2;
-    grid-column-end: 3;
-
+    cursor: pointer;
     background-image: url(/src/assets/icons/github-icon.svg);
     background-color: whitesmoke;
     border: 5px solid whitesmoke;
     border-radius: 100%;
+    cursor: pointer;
 }
 
 .website-project-details,
 .kob-project-details {
     grid-row-start: 2;
     grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
 
     color: whitesmoke;
     font-family: 'Open Sans', sans-serif;
