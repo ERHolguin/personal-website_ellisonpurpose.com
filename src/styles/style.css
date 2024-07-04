@@ -320,7 +320,7 @@ a {
     display: grid;
     grid-template-rows: 2fr 1fr;
 
-    border-radius: 10px;
+    border-radius: 5%;
     background-color: #171717;
 }
 
@@ -334,6 +334,8 @@ a {
 .project-screenshot {
     width: 100%;
     height: auto;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
 
 }
 
