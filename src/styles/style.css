@@ -342,7 +342,7 @@ a {
     grid-row-end: 3;
 
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
 
 }
 
@@ -390,6 +390,7 @@ a {
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     margin-left: 10px;
+    margin-top: 10px;
 }
 
 
