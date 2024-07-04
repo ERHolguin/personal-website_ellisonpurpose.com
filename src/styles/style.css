@@ -72,6 +72,11 @@ a {
 
 #menu li a {
     color: whitesmoke;
+    opacity: 75%;
+}
+
+#menu li a:hover {
+    opacity: 100%;
 }
 
 .section-container {
