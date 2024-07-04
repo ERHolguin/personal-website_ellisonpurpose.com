@@ -604,6 +604,11 @@ footer {
 .socials a {
     font-size: 25px;
     color: whitesmoke;
+    opacity: 75%;
+}
+
+.socials a:hover {
+    opacity: 100%;
 }
 
 i {
