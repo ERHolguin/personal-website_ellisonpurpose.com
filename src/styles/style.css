@@ -530,6 +530,11 @@ input:valid {
   margin-bottom: 30px;
 }
 
+.form-row .required-fields-note {
+    color: whitesmoke;
+    font-size: 14px;
+}
+
 .form-row label {
   margin-bottom: 15px;
   font-size: 30px;
