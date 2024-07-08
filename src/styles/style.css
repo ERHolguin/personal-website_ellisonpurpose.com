@@ -478,6 +478,7 @@ form {
     padding: 50px;
 
     border: 2px solid rgb(0, 144, 158);
+    border-radius: 15px;
   }
   
   .form-row {
