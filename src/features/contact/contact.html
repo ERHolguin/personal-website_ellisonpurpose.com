@@ -60,9 +60,16 @@
       </div>
       <div class='form-row'>
         <label for="message">Message *</label>
-        <textarea id="message" name="message"></textarea>
-        <div class="instructions">Write your message in 300 words or less</div>
-        <p class="required-fields-note">* denotes a required field.</p>
+        <textarea 
+        id="message" 
+        name="message"
+        minlength="20"
+        ></textarea>
+        <div class="instructions">To encourage constructive feedback, your message must be longer than
+          20 characters. If you just want to say "Nice Project!", please click the heart icon (coming soon) underneath
+          the related project.
+        </div>
+        <p class="required-fields-note">* Denotes a required field.</p>
       </div>
       <div class='form-row'>
         <button>Submit</button>
