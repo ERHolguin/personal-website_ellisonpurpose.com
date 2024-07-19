@@ -460,7 +460,6 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .contact-title {
@@ -497,11 +496,33 @@ input:invalid {
   border: 2px solid#9F192B;
 }
 
+/*error box amd text content*/
+.error {
+  box-sizing: border-box;
+
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  width: auto;
+  padding-left: 5px;
+  font-size: 80%;
+  color: whitesmoke;
+  background-color: #9f192b;
+  border-radius: 5px;
+  margin-left: 200px; /*nudges error message box on the left*/
+}
+
+.error.active {
+  padding: 0.5em;
+}
+
 input:valid {
   border: 2px solid whitesmoke;
 }
 
-/*Don't add broder style here as to not override valid/invalid colors*/
+/*Don't add border style here as to not override valid/invalid colors*/
 .form-row input[type="text"],
 .form-row input[type="email"] {
   color: whitesmoke;
@@ -531,8 +552,8 @@ input:valid {
 }
 
 .form-row .required-fields-note {
-    color: whitesmoke;
-    font-size: 14px;
+  color: whitesmoke;
+  font-size: 14px;
 }
 
 .form-row label {
