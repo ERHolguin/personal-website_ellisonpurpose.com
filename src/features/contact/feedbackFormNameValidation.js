@@ -1,7 +1,7 @@
-// select necessary elements
+/*// select necessary elements
 const form = document.querySelector(".contact-form");
 const userName = document.getElementById("name");
-const nameError = document.querySelector("#name + span.error");
+const nameError = document.querySelector("#name + span.name-error");
 
 // define the error message to be displayed
 function showNameErrorMsg() {
@@ -24,27 +24,26 @@ function checkNameErrorInputValidity() {
 
 // chack name validity on submit
 function checkNameValidityOnSubmit(e) {
-    if(!userName.validity.valid) {
-        // show the error
-        showError();
-        // cancel the event; prevent the form from being submitted
-        e.preventDefault();
-    }
+  if (!userName.validity.valid) {
+    // show the error
+    showError();
+    // cancel the event; prevent the form from being submitted
+    e.preventDefault();
+  }
 }
 
-
 // define when to show the error + msg
-function showError()  {
-    // when the input is empty
-    if(userName.validity.ValueMissing) {
-        showNameErrorMsg();
+function showError() {
+  // when the input is empty
+  if (userName.validity.valueMissing) {
+    showNameErrorMsg();
     // when the input type doesn't match
-    } else if(userName.validity.typeMismatch) {
-        showNameErrorMsg();
-    }
+  } else if (userName.validity.typeMismatch) {
+    showNameErrorMsg();
+  }
 
-    // set styling of error & msg
-    nameError.className = "error active"
+  // set styling of error & msg
+  nameError.className = "error active";
 }
 
 userName.addEventListener("input", checkNameErrorInputValidity);
@@ -55,3 +54,4 @@ form.addEventListener("submit", checkNameValidityOnSubmit);
 // update CSS styles
 
 // display error messages
+*/

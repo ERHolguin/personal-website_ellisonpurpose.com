@@ -27,7 +27,7 @@ function checkEmailValidityOnSubmit(e) {
 }
 
 function showError() {
-  if (email.validity.ValueMissing) {
+  if (email.validity.valueMissing) {
     ShowEmailErrorMsg();
   } else if (email.validity.typeMismatch) {
     ShowEmailErrorMsg();
