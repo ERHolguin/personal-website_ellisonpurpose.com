@@ -496,7 +496,7 @@ input:invalid {
   border: 2px solid#9F192B;
 }
 
-/*error box amd text content*/
+/*error box and text content*/
 .error {
   box-sizing: border-box;
 
