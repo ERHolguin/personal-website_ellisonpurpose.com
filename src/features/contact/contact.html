@@ -12,12 +12,12 @@
 
     <script>
       $(function () {
+        $("#header").load("/src/features/header/header.html");
         $("#footer").load("/src/features/footer/footer.html");
       });
     </script>
 
     <link rel="stylesheet" type="text/css" href="/src/styles/style.css" />
-
   </head>
   <script
     src="/src/features/contact/feedbackFormEmailValidation.js"
@@ -30,27 +30,8 @@
   ></script>
 
   <body id="contactBodyStyle">
-    <header class="header">
-      <nav class="navbar">
-        <a href="/src/index.html">
-          <img
-            class="logo"
-            src="/src/assets/images/Logo with Transparent Background.png"
-          />
-        </a>
-        <ul id="menu">
-          <li class="header-links">
-            <a href="/src/features/about/about.html">About</a>
-          </li>
-          <li class="header-links">
-            <a href="/src/features/portfolio/portfolio.html">Portfolio</a>
-          </li>
-          <li class="header-links">
-            <a href="/src/features/contact/contact.html">Contact</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+    <div id="header"></div>
+
     <div class="content">
       <div class="contact-title-container">
         <h3 class="contact-title">
