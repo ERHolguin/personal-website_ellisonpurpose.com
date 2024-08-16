@@ -30,6 +30,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 li {
@@ -179,6 +180,10 @@ a {
 
 .emphasis-color {
   color: rgb(0, 144, 158);
+}
+
+.emphasis-color:hover {
+  color: #407fc7;
 }
 
 .about-title {
@@ -456,13 +461,18 @@ a {
 /*----------------------------contact------------------------------------------*/
 
 .contact-title-container {
-  margin-top: 200px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  margin: auto;
 }
 
 .contact-title {
+  margin: 0;
+
   font-size: 40px;
   font-weight: 500;
   text-wrap: wrap;
@@ -470,8 +480,19 @@ a {
   color: whitesmoke;
 }
 
+/*
+reserved for official feedback form
+
+.contact-title-container {
+  margin-top: 200px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 form {
-  margin: 0 auto; /* Center form on the page */
+  margin: 0 auto; Center form on the page 
   margin-top: 50px;
   width: 60%;
   padding: 50px;
@@ -489,14 +510,14 @@ form {
 }
 
 input {
-  appearance: none; /*remove system-level styling*/
+  appearance: none; remove system-level styling
 }
 
 input:invalid {
   border: 2px solid#9F192B;
 }
 
-/*error box and text content*/
+error box and text content
 .error {
   box-sizing: border-box;
 
@@ -511,7 +532,7 @@ input:invalid {
   color: whitesmoke;
   background-color: #9f192b;
   border-radius: 5px;
-  margin-left: 200px; /*nudges error message box on the left*/
+  margin-left: 200px; nudges error message box on the left
 }
 
 .error.active {
@@ -522,7 +543,7 @@ input:valid {
   border: 2px solid whitesmoke;
 }
 
-/*Don't add border style here as to not override valid/invalid colors*/
+Don't add border style here as to not override valid/invalid colors
 .form-row input[type="text"],
 .form-row input[type="email"] {
   color: whitesmoke;
@@ -542,7 +563,7 @@ input:valid {
   min-height: 200px;
   margin-bottom: 10px;
   padding: 10px;
-  resize: none; /*don't allow users to resize the text box*/
+  resize: none; don't allow users to resize the text box
 }
 
 .form-row .instructions {
@@ -592,7 +613,7 @@ input:valid {
   }
   .form-row {
     flex-direction: row;
-    align-items: flex-start; /* To avoid stretching */
+    align-items: flex-start;  To avoid stretching 
     margin-bottom: 20px;
   }
   .form-row input[type="text"],
@@ -609,14 +630,14 @@ input:valid {
   }
 
   .form-row .instructions {
-    margin-left: 200px; /*nudges instructions with size of label on the left*/
+    margin-left: 200px; nudges instructions with size of label on the left
   }
 
   .form-row button {
     margin-left: 200px;
   }
 }
-
+*/
 /*----------------------------Footer------------------------------------------*/
 
 footer {
