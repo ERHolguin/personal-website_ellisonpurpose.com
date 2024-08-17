@@ -10,14 +10,9 @@
       crossorigin="anonymous"
     ></script>
 
-    <script>
-      $(function () {
-        $("#header").load("/features/header/header.html");
-        $("#footer").load("/features/footer/footer.html");
-      });
-    </script>
-
     <link rel="stylesheet" type="text/css" href="/src/styles/style.css" />
+    <script src="shared/components/jquery-3.7.1.min.js"></script>
+    <script src="/features/header/common-header.js"></script>
   </head>
   <!--<script
     src="/src/features/contact/feedbackFormEmailValidation.js"
@@ -33,14 +28,14 @@
     <div id="header"></div>
 
     <div class="content">
-        <section class="contact-title-container">
-          <h3 class="contact-title">
-            Leave your Feedback and Comments
-            <a href="https://forms.gle/ysYbWxyqseb7vVB26">
-              <span class="emphasis-color"> here </span>
-            </a>
-          </h3>
-        </section>
+      <section class="contact-title-container">
+        <h3 class="contact-title">
+          Leave your Feedback and Comments
+          <a href="https://forms.gle/ysYbWxyqseb7vVB26">
+            <span class="emphasis-color"> here </span>
+          </a>
+        </h3>
+      </section>
 
       <!--
       <form novalidate class="contact-form" action="" method="get">
