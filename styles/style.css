@@ -1,0 +1,672 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,800;1,300;1,400;1,500;1,800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background-color: #171717;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#aboutBodyStyle,
+#contactBodyStyle,
+#portfolioBodyStyle,
+#resourcesBodyStyle {
+  background-color: #101010;
+}
+
+.content {
+  max-width: 70%;
+  margin: auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  margin-right: auto;
+  width: 225px;
+  cursor: pointer;
+}
+
+#menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: whitesmoke;
+}
+
+.header-links {
+  font-size: 20px;
+  margin: 0 10px;
+  padding: 15px;
+  cursor: pointer;
+}
+
+#menu li a {
+  color: whitesmoke;
+  opacity: 75%;
+}
+
+#menu li a:hover {
+  opacity: 100%;
+}
+
+.section-container {
+  height: 100px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  margin: auto;
+}
+
+.section-para {
+  margin: 0;
+}
+
+.name-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 1px;
+}
+
+.first-name,
+.last-name {
+  padding: 5px;
+  font-size: 65px;
+  font-weight: 800;
+}
+
+.first-name {
+  color: rgb(0, 144, 158);
+}
+
+.last-name {
+  color: whitesmoke;
+}
+
+.typing-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: 50px;
+  font-weight: 300;
+  color: whitesmoke;
+}
+
+#subjects {
+  display: flex;
+  font-size: 50px;
+  font-weight: 300;
+  color: whitesmoke;
+}
+
+#word {
+  color: rgb(0, 144, 158);
+  margin-left: 8px;
+}
+
+#vertical-bar {
+  display: inline-block;
+  width: 1px;
+  margin-left: 8px;
+
+  animation: blink 0.6s linear infinite alternate;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/*----------------------------About ME------------------------------------------*/
+
+.about-me {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: whitesmoke;
+}
+
+.about-me-text-one {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.emphasis-color {
+  color: rgb(0, 144, 158);
+}
+
+.emphasis-color:hover {
+  color: #407fc7;
+}
+
+.about-title {
+  margin-top: 50px;
+  font-size: 40px;
+  font-weight: 500;
+  color: whitesmoke;
+}
+
+.about-main-container {
+  box-sizing: border-box;
+  margin-top: 4px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-body-container {
+  box-sizing: border-box;
+  width: 100%;
+  align-items: center;
+}
+
+.about-text-one,
+.about-text-two {
+  margin-top: 25px;
+  font-size: 30px;
+  color: whitesmoke;
+  opacity: 75%;
+}
+
+.about-text-two {
+  margin-top: 25px;
+}
+
+.profile-photo-container {
+  margin-left: 50px;
+  width: 100%;
+}
+
+.profile-photo {
+  width: 400px;
+  filter: drop-shadow(20px #101010);
+}
+
+.skills-main-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  box-sizing: border-box;
+}
+
+.skills-title-container {
+  margin-top: 100px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills-title {
+  font-size: 40px;
+  font-weight: 500;
+  color: whitesmoke;
+}
+
+.skill-buttons-container {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 75%;
+  background-color: #171717;
+  border: 1px #171717;
+  border-radius: 15px;
+  margin-bottom: 300px;
+}
+
+.skill-button {
+  box-sizing: border-box;
+  margin: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+  /*border-radius: 50px;
+    padding: 5px;
+    width: auto;
+    height: 50px;
+    color: #171717;
+    background-color: whitesmoke;
+    border: 1px  #9ADEEF;*/
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.grow {
+  transition: all 0.3s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.1);
+}
+
+.icon {
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+/*----------------------------Portfolio------------------------------------------*/
+
+.portfolio-title-container {
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: whitesmoke;
+}
+
+.portfolio-title {
+  font-size: 40px;
+  font-weight: 500;
+  text-wrap: wrap;
+}
+
+.project-cards-container {
+  box-sizing: border-box;
+  margin-top: 25px;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+  justify-content: center;
+
+  width: 100%;
+}
+
+.project-cards-container .project-card {
+  box-sizing: border-box;
+
+  display: grid;
+  grid-template-rows: 2fr 1fr;
+
+  border-radius: 15px;
+  background-color: #171717;
+}
+
+.project-screenshot-container {
+  grid-row-start: 1;
+  grid-row-end: 2;
+
+  display: grid;
+  place-items: stretch;
+
+  border-bottom: 0.2px solid grey;
+}
+
+.project-screenshot {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+}
+
+.website-project-description,
+.kob-project-description {
+  grid-row-start: 2;
+  grid-row-end: 3;
+
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+  grid-template-columns: 3fr 1fr;
+}
+
+.website-project-name,
+.kob-project-name {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  align-self: center;
+
+  color: rgb(0, 144, 158);
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.github-link {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  align-self: center;
+
+  content: "";
+  width: 25px;
+  height: 25px;
+  margin-left: 10px;
+  cursor: pointer;
+  background-image: url(/src/assets/icons/github-icon.svg);
+  background-color: whitesmoke;
+  border: 5px solid whitesmoke;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.website-project-details,
+.kob-project-details {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 3;
+
+  color: whitesmoke;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  margin: 10px;
+}
+
+/*----------------------------Resources------------------------------------------*/
+
+.coming-soon-container {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 900px;
+  height: 100px;
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  margin: auto;
+}
+
+.coming-soon-title-container {
+  display: block;
+  padding: 100px;
+  width: auto;
+  height: auto;
+  color: whitesmoke;
+  background-color: #171717;
+  border: 1px #171717;
+  border-radius: 15px;
+  font-size: 40px;
+  margin: 50px;
+}
+
+.coming-soon-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.coming-soon-text {
+  font-size: 20px;
+  font-style: italic;
+}
+
+/*----------------------------contact------------------------------------------*/
+
+.contact-title-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  margin: auto;
+}
+
+.contact-title {
+  margin: 0;
+
+  font-size: 40px;
+  font-weight: 500;
+  text-wrap: wrap;
+
+  color: whitesmoke;
+}
+
+/*
+reserved from when official feedback form is active
+
+.contact-title-container {
+  margin-top: 200px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+form {
+  margin: 0 auto; Center form on the page 
+  margin-top: 50px;
+  width: 60%;
+  padding: 50px;
+
+  border: 2px solid rgb(0, 144, 158);
+  border-radius: 15px;
+}
+
+.form-row {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+input {
+  appearance: none; remove system-level styling
+}
+
+input:invalid {
+  border: 2px solid#9F192B;
+}
+
+error box and text content
+.error {
+  box-sizing: border-box;
+
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  width: auto;
+  padding-left: 5px;
+  font-size: 80%;
+  color: whitesmoke;
+  background-color: #9f192b;
+  border-radius: 5px;
+  margin-left: 200px; nudges error message box on the left
+}
+
+.error.active {
+  padding: 0.5em;
+}
+
+input:valid {
+  border: 2px solid whitesmoke;
+}
+
+Don't add border style here as to not override valid/invalid colors
+.form-row input[type="text"],
+.form-row input[type="email"] {
+  color: whitesmoke;
+  background-color: #171717;
+  border-radius: 5px;
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.form-row textarea {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  background-color: #171717;
+  border: 1px solid #101010;
+  border-radius: 5px;
+  min-height: 200px;
+  margin-bottom: 10px;
+  padding: 10px;
+  resize: none; don't allow users to resize the text box
+}
+
+.form-row .instructions {
+  color: whitesmoke;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.form-row .required-fields-note {
+  color: whitesmoke;
+  font-size: 14px;
+}
+
+.form-row label {
+  margin-bottom: 15px;
+  font-size: 30px;
+  color: whitesmoke;
+  width: 200px;
+}
+
+.form-row button {
+  font-size: 16px;
+  font-weight: bold;
+
+  color: whitesmoke;
+  background-color: rgb(0, 144, 158);
+  opacity: 75%;
+
+  border: none;
+  border-radius: 5px;
+
+  padding: 10px 40px;
+  cursor: pointer;
+}
+
+.form-row button:hover {
+  opacity: 100%;
+}
+
+.form-row button:active {
+  background-color: #407fc7;
+}
+
+@media only screen and (min-width: 700px) {
+  .contact-form {
+    width: 600px;
+  }
+  .form-row {
+    flex-direction: row;
+    align-items: flex-start;  To avoid stretching 
+    margin-bottom: 20px;
+  }
+  .form-row input[type="text"],
+  .form-row input[type="email"],
+  .form-row textarea {
+    width: 250px;
+    height: initial;
+  }
+  .form-row label {
+    text-align: right;
+    width: 200px;
+    margin-top: 7px;
+    padding-right: 20px;
+  }
+
+  .form-row .instructions {
+    margin-left: 200px; nudges instructions with size of label on the left
+  }
+
+  .form-row button {
+    margin-left: 200px;
+  }
+}
+*/
+/*----------------------------Footer------------------------------------------*/
+
+footer {
+  margin-top: auto;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.socials {
+  bottom: 0px;
+  margin-bottom: 25px;
+}
+
+/*link tags are styled here - styling was removed from .socials after adding links*/
+.socials a {
+  font-size: 25px;
+  color: whitesmoke;
+  opacity: 75%;
+}
+
+.socials a:hover {
+  opacity: 100%;
+}
+
+i {
+  padding: 5px;
+  cursor: pointer;
+}
