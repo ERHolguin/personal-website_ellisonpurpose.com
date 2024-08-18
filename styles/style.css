@@ -171,7 +171,6 @@ svg {
   justify-content: center;
   align-items: center;
   margin-top: 50px;
-
 }
 
 .socials-container li {
@@ -191,7 +190,6 @@ svg {
 
   opacity: 100%;
 }
-
 
 /*----------------------------About ME------------------------------------------*/
 
@@ -496,6 +494,10 @@ svg {
 /*----------------------------contact------------------------------------------*/
 
 .contact-title-container {
+  display: block;
+  justify-content: center;
+  align-items: center;
+
   align-self: center;
   top: 0;
   bottom: 0;
