@@ -394,7 +394,7 @@ a {
   height: 25px;
   margin-left: 10px;
   cursor: pointer;
-  background-image: url(/src/assets/icons/github-icon.svg);
+  background-image: url(/assets/icons/github-icon.svg);
   background-color: whitesmoke;
   border: 5px solid whitesmoke;
   border-radius: 100%;
