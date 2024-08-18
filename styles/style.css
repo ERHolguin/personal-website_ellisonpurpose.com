@@ -364,41 +364,45 @@ a {
 
   display: grid;
   grid-template-rows: 1fr 2fr;
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 0.15fr 3fr;
 }
 
 .website-project-name,
 .kob-project-name {
   grid-row-start: 1;
   grid-row-end: 2;
-  grid-column-start: 1;
-  grid-column-end: 2;
+  grid-column-start: 2;
+  grid-column-end: 3;
   align-self: center;
 
   color: rgb(0, 144, 158);
   font-family: "Open Sans", sans-serif;
   font-size: 20px;
   margin-left: 10px;
-  margin-top: 10px;
+  margin-right: 10px;
 }
 
 .github-link {
   grid-row-start: 1;
   grid-row-end: 2;
-  grid-column-start: 2;
-  grid-column-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 2;
   align-self: center;
+  padding-right: 0;
 
   content: "";
   width: 25px;
   height: 25px;
+  display: grid;
+  justify-content: center;
   margin-left: 10px;
+  margin-right: 0;
   cursor: pointer;
+
   background-image: url(/assets/icons/github-icon.svg);
   background-color: whitesmoke;
   border: 5px solid whitesmoke;
   border-radius: 100%;
-  cursor: pointer;
 }
 
 .website-project-details,
