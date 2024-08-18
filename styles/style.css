@@ -84,7 +84,7 @@ svg {
   opacity: 100%;
 }
 
-.section-container {
+.name-section-container {
   height: 100px;
   position: absolute;
   top: 0;
@@ -95,7 +95,7 @@ svg {
   margin: auto;
 }
 
-.section-para {
+.name-section-para {
   margin: 0;
 }
 
