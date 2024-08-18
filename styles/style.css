@@ -183,6 +183,15 @@ svg {
   opacity: 75%;
 }
 
+.socials-container li:hover {
+  align-self: center;
+  padding: 10px;
+  height: 45px;
+  width: 45px;
+
+  opacity: 100%;
+}
+
 
 /*----------------------------About ME------------------------------------------*/
 
