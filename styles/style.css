@@ -41,6 +41,10 @@ a {
   text-decoration: none;
 }
 
+svg {
+  fill: currentColor;
+}
+
 .header {
   box-sizing: border-box;
 }
@@ -161,6 +165,24 @@ a {
     opacity: 0;
   }
 }
+
+.socials-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+
+}
+
+.socials-container li {
+  align-self: center;
+  padding: 10px;
+  height: 45px;
+  width: 45px;
+
+  opacity: 75%;
+}
+
 
 /*----------------------------About ME------------------------------------------*/
 
@@ -654,12 +676,12 @@ footer {
   text-align: center;
 }
 
-.socials {
+/*.socials {
   bottom: 0px;
   margin-bottom: 25px;
 }
 
-/*link tags are styled here - styling was removed from .socials after adding links*/
+link tags are styled here - styling was removed from .socials after adding links
 .socials a {
   font-size: 25px;
   color: whitesmoke;
@@ -673,4 +695,4 @@ footer {
 i {
   padding: 5px;
   cursor: pointer;
-}
+}*/
