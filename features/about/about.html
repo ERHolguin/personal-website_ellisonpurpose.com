@@ -10,13 +10,9 @@
     font-src 'self' https://fonts.gstatic.com;"
     />
     <title>Personal Website/About</title>
-
     <link rel="stylesheet" type="text/css" href="/styles/style.css" />
-
-    <script src="/shared/components/jquery-3.7.1.min.js"></script>
-
-    <script src="/features/header/common-header.js"></script>
-
+    <!--<script src="/shared/components/jquery-3.7.1.min.js"></script>
+    <script src="/features/header/common-header.js"></script>-->
     <script
       src="https://kit.fontawesome.com/ecd1bf1f7b.js"
       crossorigin="anonymous"
@@ -24,8 +20,28 @@
   </head>
 
   <body id="aboutBodyStyle">
-    <div id="header"></div>
-
+    <!--<div id="header"></div>-->
+    <header class="header">
+      <nav class="navbar">
+        <a href="/index.html">
+          <img
+            class="logo"
+            src="/assets/images/Logo with Transparent Background.png"
+          />
+        </a>
+        <ul id="menu">
+          <li class="header-links">
+            <a href="/features/about/about.html">About</a>
+          </li>
+          <li class="header-links">
+            <a href="/features/portfolio/portfolio.html">Portfolio</a>
+          </li>
+          <li class="header-links">
+            <a href="/features/contact/contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
     <div class="content">
       <div class="about-me">
         <h3 class="about-me-text-one">
@@ -88,6 +104,6 @@
         </div>
       </div>
     </div>
-    <div id="footer"></div>
+    <!--<div id="footer"></div>-->
   </body>
 </html>
